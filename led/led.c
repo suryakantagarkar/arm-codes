@@ -17,6 +17,9 @@ void led_off(void)
     LED_IOCLR = BV(LED);
 }
 
+/*
+ * Function blinks the leds on GPIO pins
+ */
 void led_blink(void)
 {
     int i = 0;
